@@ -11,7 +11,7 @@ services:
   ipfs0:
     image: ipfs/go-ipfs:v0.4.21
     container_name: "ipfs0"
-    # ports:
+    ports:
     #   - 4001:4001 # ipfs swarm
     #   - 5001:5001 # ipfs api
       - 8080:8080 # ipfs gateway
