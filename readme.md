@@ -1,6 +1,15 @@
 # Private IPFS
 
+## Scripts
+
+### Start
+
 ```bash
-$ chmod +x start.sh
-$ ./start.sh
+$ make up
+```
+
+### Stop
+
+```bash
+$ make down
 ```
